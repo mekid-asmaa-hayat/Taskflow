@@ -27,7 +27,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         </div>
         <div className="flex items-center gap-3">
           {user && (
-            <span className="text-sm text-gray-600">
+            <span className="text-sm text-gray-500">
               {user.firstName || user.email}
             </span>
           )}
